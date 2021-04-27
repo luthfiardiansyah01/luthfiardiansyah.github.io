@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/project1.css">
+    <link rel="stylesheet" href="media-queries.css" />
+</head>
+
+<body>
+    <!-- APP -->
+    <div id="app">
+        <div class="app-overlay"></div>
+        <!-- MAIN -->
+        <main>
+
+            <h1 style="text-align: center;position:relative;top: 10%;">SEMIFINAL UEFA CHAMPIONS LEAGUE 2021</h1>
+            <div class="cards">
+                <div class="card">
+                    <img class="card-image" src="images/3.png" alt="">
+                    <div class="card-info">
+                        <div class="candidate-votes">
+                            <span class="votes-number">0</span>
+                            <span class="votes-text">VOTE</span>
+                        </div>
+                        <div class="line"></div>
+                        <div class="candidate-info">
+                            <span class="candidate-name">Chelsea F.C.</span>
+                            <span class="candidate-party">Premier League</span>
+                        </div>
+                    </div>
+                    <button class="card-btn btn-chelsea">VOTE</button>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="images/123.png" alt="">
+                    <div class="card-info">
+                        <div class="candidate-votes">
+                            <span class="votes-number">0</span>
+                            <span class="votes-text">VOTE</span>
+                        </div>
+                        <div class="line"></div>
+                        <div class="candidate-info">
+                            <span class="candidate-name">Real Madrid</span>
+                            <span class="candidate-party">La Liga</span>
+                        </div>
+                    </div>
+                    <button class="card-btn btn-madrid">VOTE</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/data_project1.js"></script>
+    <script src="js/functions_project1.js"></script>
+    <script src="js/app_project1.js"></script>
+
+</body>
+
+</html>
